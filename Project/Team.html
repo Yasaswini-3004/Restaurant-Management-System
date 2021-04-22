@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>TEAM</title>
+<style type="text/css">  
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+ }
+body{
+    font-family:'Franklin Gothic Medium',  sans-serif;
+    background-image: url(bg.jpg);
+    background-repeat: no-repeat;
+    background-position: center-bottom;
+    background-size: cover;
+}
+.wrapper{
+    width: 1200px;
+    margin: 60px auto;
+}
+.title h1{
+    font-style: italic;
+    text-align:center;
+    font-size: 30px; 
+    color:Yellow ; 
+}
+.title h4{
+    font-size:20px;
+    text-align: center;
+    color: White;
+    font-weight: 300;
+}
+.menu{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:flex-end;
+    color: white;
+}
+.single-menu{
+    flex-basis: 510px;
+    margin-bottom: 0px;
+    padding-bottom: 40px;
+    border-bottom: 1px ;
+}
+.single-menu:nth-child(5),.single-menu:nth-child(6){
+    border-bottom: 0;
+}
+.single-menuZ{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.single-menu:hover img{
+    border-radius: 10%;
+
+}
+.single-menu img{
+    max-width: 200px;
+    margin-right: 130px;
+    border-radius: 50%;
+    border: 1px solid #ddd;
+    padding: 3px;
+}
+.single-menu h4{
+    text-transform:capitalize;
+    font-size: 22px;
+    border-bottom: 1px;
+    margin-bottom: 5px;
+    padding-bottom: 5px;
+}
+.single-menu h4 span{
+    float: right;
+    color: blue;
+    font-style: italic;
+}  
+</style>
+</head>
+<body>
+  <div class="wrapper">
+      <div class="title">
+          <h1>MONKS KITCHEN</h1><br>
+          <h4>OUR TEAM</h4>
+      </div>
+      <div class="menu">
+          <div class="single-menu">
+           <img src="t1.jpeg" style="height: 300px;width: 300px;" alt=""> 
+              <div class="menu-content">
+                <h4>Georgia miller</h4>
+                <p>Expert in desserts</p>
+              </div>
+          </div>
+          <div class="single-menu">
+            <img src="t2.jpeg" style="height: 300px;width: 300px;" alt="">
+            <div class="menu-content">
+               <h4>Tom ellis</h4>
+               <p>Expert in Chinese cuisine</p>
+            </div>
+          </div>
+          <div class="single-menu">
+          <img src="t3.jpeg" style="height:300px;width:300px;" alt="">
+             <div class="menu-content">
+                <h4>Rachel green</h4>
+                <p>Expert in Indian style</p>
+             </div>
+          </div>
+          <div class="single-menu">
+             <img src="t4.jpeg" style="height: 300px;width: 300px;" alt="">
+               <div class="menu-content">
+                <h4>Robin Scherbatsky</h4>
+                <p>Expert in Japanese Cuisine</p>
+               </div>
+          </div>
+          <div class="single-menu">
+             <img src="t5.jpg" style="height: 300px;width: 300px;" alt="">
+             <div class="menu-content">
+                <h4>Felix Mallard</h4>
+                <p>Expert in fast food </p>
+             </div>
+          </div>
+          <div class="single-menu">
+             <img src="t6.jpg" style="height: 300px;width: 300px;" alt="">
+             <div class="menu-content">
+                <h4>Hu Bing</h4>
+                <p>Expert in Desserts and shakes</p>
+             </div>
+          </div>
+   </div>
+</div>  
+</body>
+</html>
